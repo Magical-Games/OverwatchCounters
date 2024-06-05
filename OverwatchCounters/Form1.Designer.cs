@@ -87,6 +87,7 @@
             Controls.Add(comboBox1);
             Name = "Form1";
             Text = "Overwatch Counters";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
