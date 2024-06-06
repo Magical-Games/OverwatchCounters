@@ -7,6 +7,9 @@ namespace OverwatchCounters
         public Form1()
         {
             InitializeComponent();
+            string[] DVA = { "Zarya", "Doomfist", "Junker Queen", "Roadhog", "Sigma", "Reinhardt", "Mei", "Reaper", "Sombra", "Symmetra", "Moira", "Brigitte" };
+            string[] Doomfist = { "Roadhog", "Orisa", "Sigma", "Bastion", "Symettra", "Sombra", "Mei", "Cassidy", "Junkrat", "Anna", "Moira", "Zenyatta" };
+            string[] JunkerQueen = { };
         }
 
         private async void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -31,6 +34,11 @@ namespace OverwatchCounters
                 listView1.Items.Clear();
 
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
